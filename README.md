@@ -157,4 +157,6 @@ npm run dev
 * Verify receiver email (for testing)
 * For production: request SES production access to remove sandbox restrictions
 * Use SES in notification Lambda to send user updates
-
+---
+### **Architecture diagram**:
+![deepseek_mermaid_20250523_e4aa92](https://github.com/user-attachments/assets/a2434d2d-b479-474b-bb39-6683ee1ed72c)
