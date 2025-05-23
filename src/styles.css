@@ -1,0 +1,145 @@
+/* General body and layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9fafb;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Container for forms and pages */
+  .container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px 30px;
+    background: white;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Headings */
+  h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 24px;
+  }
+  
+  /* Forms */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  /* Inputs and textareas */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select,
+  textarea {
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1.8px solid #ccc;
+    border-radius: 6px;
+    outline-offset: 2px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #4a90e2;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #357ABD;
+  }
+  
+  /* Task list */
+  .task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .task-item {
+    background: #ecf0f1;
+    margin-bottom: 12px;
+    padding: 15px 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 0.05);
+  }
+  
+  .task-item:hover {
+    background: #d0d7de;
+  }
+  
+  .task-title {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .task-status {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .status-pending {
+    background-color: #f39c12;
+  }
+  
+  .status-inprogress {
+    background-color: #2980b9;
+  }
+  
+  .status-completed {
+    background-color: #27ae60;
+  }
+  
+  /* File input styling */
+  input[type="file"] {
+    border: none;
+    padding: 0;
+  }
+  
+  /* Alerts (for placeholders) */
+  .alert {
+    padding: 12px 15px;
+    background-color: #f1c40f;
+    color: #856404;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  /* Responsive */
+  @media (max-width: 640px) {
+    .container {
+      margin: 20px 15px;
+      padding: 15px 20px;
+    }
+  }
+  
